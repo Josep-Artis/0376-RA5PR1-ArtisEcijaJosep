@@ -10,8 +10,10 @@
     <p>Introducimos un numero</p>
     <?php
     $num = 8;
-    for ($i=1; $i <= 10; $i++) { 
+    $minimo = 0;
+    $maximo = 10;
+    for ($i = $minimo; $i <= $maximo; $i++) { 
         echo "$num x $i = " . ($num * $i) . "<br>";
-    }
+    }?>
 </body>
 </html>
