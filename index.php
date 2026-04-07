@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /* el estilo de la tabla */
+        table { border-collapse: collapse; width: 250px; }
+        td { border: 1px solid black; padding: 10px; text-align: center; }
+        /*cambio de colores para las filas alternamos gris y blanco*/
+        .gris { background-color: #eeeeee; }
+        /*estilo mensaje error*/
+        .error { color: red; font-weight: bold; }
+    </style>
 </head>
 <body>
     <h1>TAULA DE MULTIPLICAR</h1>
